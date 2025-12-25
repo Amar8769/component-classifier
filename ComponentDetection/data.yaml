@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['capacitor', 'led', 'relay', 'resistor', 'sevensegment', 'switch']
+
+roboflow:
+  workspace: amar-mzpp0
+  project: componentdetection-68vb5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amar-mzpp0/componentdetection-68vb5/dataset/1
